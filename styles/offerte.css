@@ -1,0 +1,72 @@
+.columnsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: #dedede;
+}
+
+h1,
+h2,
+p {
+  color: #23272a;
+}
+
+.leftColumn {
+  flex: 1;
+  padding: 10px;
+}
+
+.rightColumn {
+  flex: 1;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .columnsWrapper {
+    flex-direction: column;
+  }
+
+  .leftColumn {
+    margin-left: 0;
+  }
+
+  .rightColumn {
+    margin-left: 0;
+  }
+
+  .leftColumn img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .leftColumn {
+    margin-left: 200px;
+  }
+}
+
+.sign-up-btn_offerte {
+  display: inline-block;
+  background-color: #ff0088;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.sign-up-btn_offerte:hover {
+  display: inline-block;
+  background-color: #bd0065;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+#firstBg {
+  background-color: white;
+}
