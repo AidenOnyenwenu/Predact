@@ -291,6 +291,7 @@
   .loginCard h1 {
     color: #333333;
     margin-top: 20px;
+    margin-right: 0px;
   }
 
   .loginCard p {
