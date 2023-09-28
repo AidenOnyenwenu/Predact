@@ -143,20 +143,19 @@
   }
 
 /* Grid for projects */
-
 .grid-container {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(3, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   padding: 20px;
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .grid-container {
-    width: 362px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -164,7 +163,15 @@ grid-row-gap: 0px;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
+  width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .grid-item {
+    padding: 10px;
+  }
+}
+
 
  /* Login card */
 
