@@ -143,28 +143,34 @@
   }
 
 /* Grid for projects */
+/* Desktop screen */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  padding: 20px;
-  width: 100%;
+  max-width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+/* Mobile screen */
+
+@media screen and (max-width: 768px) {
   .grid-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+      max-width: 100%;
   }
 }
+
+/* Grid item */
 
 .grid-item {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
-  width: 100%;
 }
+
+/* Grid item mobile screen*/
 
 @media screen and (max-width: 768px) {
   .grid-item {
