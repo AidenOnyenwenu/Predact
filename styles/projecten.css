@@ -18,6 +18,12 @@
       color: #23272a;
     }
 
+    a {
+        text-decoration: none;
+      color: #fff;
+      font-size: 15px;
+    }
+
     h1,
     p,
     h2 {
