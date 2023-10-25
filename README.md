@@ -2,6 +2,8 @@
 
 <img src="https://onlineimages.aidenonyenwenu.repl.co/images/Schermafbeelding 2023-10-15 211120.png">
 
+❗ This project is old version of the website Predact, this website is switched to the framework Laravel in the newest upcoming version.  ❗
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/AidenistooOP/Predact?color=green) ![GitHub](https://img.shields.io/github/license/AidenistooOP/Predact?color=orange) ![](https://komarev.com/ghpvc/?username=aidenistooop&label=PROFILE+VIEWS)
 
 ## 📂 License
